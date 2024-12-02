@@ -102,8 +102,8 @@ aside {
   .btn-finalizar {
     display: block;
     text-align: center;
-    background-color: #059212; /* Cor do botão */
-    color: #000000;
+    background-color: #ffffff; /* Cor do botão */
+    color: #059212;
     font-size: 16px;
     font-weight: bold;
     text-decoration: none;
@@ -111,10 +111,13 @@ aside {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s;
+    border-radius: 50px;
+    border: 1px solid #059212;
   }
 
   .btn-finalizar:hover {
-    background-color: #d3d2d2; /* Efeito hover */
+    background-color: #059212; /* Efeito hover */
+    color: #ffffff;
   }
   .containerBuceta {
     display: flex;
